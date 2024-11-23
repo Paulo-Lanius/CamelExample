@@ -6,9 +6,11 @@ Demonstração de utilização de apache camel como middleware para classificaç
    - Instalar Apache Maven.
    - *Lembrar de incluir as variáveis de ambiente para ambos caso seja primeira instalação
 
-2. Execução (prompt)
-   - mvn clean install -U
-   - mvn spring-boot:run
+2. Execução
+   - Criar um diretório chamado **orders** e um chamado **out** (no mesmo nível do pom.xml)
+   - Criar três diretórios dentro de **out**, chamados **bar, checkout e kitchen**
+   - Rodar no prompt: **mvn clean install -U**
+   - Rodar no prompt: **mvn spring-boot:run**
 
 3. Funcionamento
    - A ideia do program é como se fosse um sistema que recebe requisições de pedidos de um bar/restaurante no formato json e faz a transformação e encaminhamento para a determinada área responsável.
