@@ -9,6 +9,7 @@ Demonstração de utilização de apache camel como middleware para classificaç
 2. Execução
    - Criar um diretório chamado **orders** e um chamado **out** (no mesmo nível do pom.xml)
    - Criar três diretórios dentro de **out**, chamados **bar, checkout e kitchen**
+   - ![image](https://github.com/user-attachments/assets/82bd0730-07d8-4c29-a75c-a823c5968e33)
    - Rodar no prompt: **mvn clean install -U**
    - Rodar no prompt: **mvn spring-boot:run**
 
