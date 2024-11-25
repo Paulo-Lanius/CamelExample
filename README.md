@@ -17,3 +17,13 @@ Demonstração de utilização de apache camel como middleware para classificaç
    - A ideia do program é como se fosse um sistema que recebe requisições de pedidos de um bar/restaurante no formato json e faz a transformação e encaminhamento para a determinada área responsável.
    - Na pasta **examples** temos jsons no formato aceito na aplicação e podem ser usados para teste também
    - Com a aplicação rodando, ao adicionar um arquivo json no formato aceito dentro da pasta **orders**, ele transformara em uma .txt com mensagem amigável e classificará para a pasta correspondente do seu tipo dentro do diretório **out**
+
+## Interface para fazer os pedidos
+
+1. Instalação
+   - Instalar o python
+   - Instalar o streamlit com `pip install streamlit`
+
+2. Execução
+   - Execute a aplicação com `streamlit run Inicio.py`
+ 
